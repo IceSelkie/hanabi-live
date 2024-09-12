@@ -1,12 +1,12 @@
 // Functions for handling all of the keyboard shortcuts.
 
-import type { CardOrder } from "@hanabi/game";
+import type { CardOrder } from "@hanabi-live/game";
 import {
   getAdjustedClueTokens,
   getTotalCardsInDeck,
   isAtMaxClueTokens,
-} from "@hanabi/game";
-import { parseIntSafe } from "isaacscript-common-ts";
+} from "@hanabi-live/game";
+import { parseIntSafe } from "complete-common";
 import * as KeyCode from "keycode-js";
 import type Konva from "konva";
 import { Screen } from "../../lobby/types/Screen";
